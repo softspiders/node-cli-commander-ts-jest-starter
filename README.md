@@ -1,8 +1,10 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# *node-cli-starter*
+UNDER DEVELOPMENT
 
-Node CLI starter
+# *node-cli-ts-starter*
+
+Node CLI starter on TypeScript
 
 ## Feature tags
 
@@ -10,11 +12,12 @@ Node CLI starter
 - node
 - starter
 - template
+- typescript
 
 ---
 
 ## Direct ancestors
-[Minimalistic JavaScript starter](https://github.com/softspiders/javascript)
+[Node CLI starter](https://github.com/softspiders/node-cli-starter)
 
 ## Requirements
 
@@ -33,13 +36,13 @@ npm i -global
 ## Run
 
 ```sh
-node-cli-starter
+node-cli-ts-starter
 ```
 
 Should see:
 
 ```sh
-Hello, Node CLI !
+Hello, Node CLI on TS!
 ```
 
 ### License
