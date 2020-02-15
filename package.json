@@ -11,7 +11,8 @@
     "cli",
     "node",
     "starter",
-    "template"
+    "template",
+    "typescript"
   ],
   "author": "Alexander Lapygin",
   "license": "MIT",
