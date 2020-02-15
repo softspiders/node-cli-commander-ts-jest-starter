@@ -1,0 +1,23 @@
+{
+  "name": "node-cli-starter",
+  "version": "0.1.0",
+  "description": "Node CLI starter",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "starter",
+    "template"
+  ],
+  "author": "Alexander Lapygin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/softspiders/node-cli-starter"
+  },
+  "homepage": "https://github.com/softspiders/node-cli-starter/blob/master/README.md"
+}
