@@ -1,33 +1,20 @@
-//import { Writer } from '../writer';
+import { Writer } from '../writer';
 
 describe('Writer', () => {
     describe('#write()', () => {
         it('should write a message', () => {
-
-            // let spy = sinon.spy(console, 'log');
-            //
-            // var writer = new Writer();
-            // writer.write('I am being tested!');
-            //
-            // assert(spy.calledWith('I am being tested!'));
-            //
-            // spy.restore();
-
-            console.log('CASE: should write a message');
-            expect(2*2).toBe(4)
+            const spy = jest.spyOn(global.console, 'log').mockImplementation();;
+            const writer = new Writer();
+            writer.write('I am being tested!');
+            expect(console.log).toBeCalledWith('I am being tested!');
+            spy.mockRestore();
         });
         it('should write a default message', () => {
-
-            // let spy = sinon.spy(console, 'log');
-            //
-            // var writer = new Writer();
-            // writer.write();
-            //
-            // assert(spy.calledWith('Hello World!'));
-            //
-            // spy.restore();
-            console.log('CASE: should write a default message');
-            expect(2*2).toBe(4)
+            const spy = jest.spyOn(global.console, 'log').mockImplementation();;
+            const writer = new Writer();
+            writer.write();
+            expect(console.log).toBeCalledWith('Hello World!');
+            spy.mockRestore();
         });
     });
 });
