@@ -20,9 +20,13 @@
 ## Direct ancestors
 [Node CLI starter](https://github.com/softspiders/node-cli-starter)
 
+---
+
 ## Requirements
 
 [NodeJS](https://nodejs.org/en/)
+
+---
 
 ## Author
 
@@ -32,11 +36,15 @@
 
 [levioza](https://github.com/levioza)'s [nodejs-cli-starter-template](https://github.com/levioza/nodejs-cli-starter-template)
 
+---
+
 ## Install (download dependencies)
 
 ```sh
 npm i
 ```
+
+---
 
 ## Test
 
@@ -65,7 +73,17 @@ Time:        5.733s
 Ran all test suites.
 ```
 
-## Install as CLI
+---
+
+## Build
+
+```sh
+npm run build
+```
+
+---
+
+## Install as a CLI
 
 ```sh
 npm i -g
@@ -104,6 +122,8 @@ Should see:
 ```sh
 0.1.0
 ```
+
+---
 
 ## License
 
