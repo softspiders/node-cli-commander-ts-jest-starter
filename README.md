@@ -29,6 +29,10 @@ UNDER DEVELOPMENT
 
 [Alexander Lapygin](https://github.com/AlexanderLapygin) - adaptation to *Soft Spiders* 
 
+## Inspired by
+
+[levioza](https://github.com/levioza)'s [nodejs-cli-starter-template](https://github.com/levioza/nodejs-cli-starter-template)
+
 ## Install
 
 ```sh
@@ -46,10 +50,6 @@ Should see:
 ```sh
 Hello, Node CLI on TS!
 ```
-
-## Inspired by
-
-[levioza](https://github.com/levioza)'s [nodejs-cli-starter-template](https://github.com/levioza/nodejs-cli-starter-template)
 
 ## License
 
