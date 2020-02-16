@@ -2,7 +2,7 @@
 
 # *node-cli-commander-ts-jest-starter*
 
-Node CLI starter on TypeScript which is testing by Jest
+*Node* CLI starter on *TypeScript* which is testing by *Jest*
 
 UNDER DEVELOPMENT
 
@@ -45,6 +45,10 @@ npm i -g
 ```sh
 cli-command
 ```
+or
+```sh
+cli-command -h
+```
 
 Should see:
 
@@ -56,9 +60,21 @@ Options:
   -h, --help       output usage information
 
 Commands:
-  write [message]  say hello!!!
+  write [message]  say hello!
   help [cmd]       display help for [cmd]
 ```
+
+
+```sh
+cli-command -V
+```
+
+Should see:
+
+```sh
+0.1.0
+```
+
 
 ## License
 
