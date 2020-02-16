@@ -11,6 +11,7 @@ UNDER DEVELOPMENT
 - cli
 - commander
 - jest
+- mock
 - node
 - starter
 - template
@@ -36,19 +37,27 @@ UNDER DEVELOPMENT
 ## Install
 
 ```sh
-npm i -global
+npm i -g
 ```
 
 ## Run
 
 ```sh
-node-cli-ts-starter
+cli-command
 ```
 
 Should see:
 
 ```sh
-Hello, Node CLI on TS!
+Usage: cli-command [options] [command]
+
+Options:
+  -V, --version    output the version number
+  -h, --help       output usage information
+
+Commands:
+  write [message]  say hello!!!
+  help [cmd]       display help for [cmd]
 ```
 
 ## License
