@@ -120,7 +120,7 @@ cli-command -V
 Should see:
 
 ```sh
-0.1.0
+1.0.0
 ```
 
 ---
