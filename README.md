@@ -4,8 +4,6 @@
 
 *Node* CLI starter on *TypeScript* which is testing by *Jest*
 
-UNDER DEVELOPMENT
-
 ## Feature tags
 
 - cli
@@ -34,7 +32,40 @@ UNDER DEVELOPMENT
 
 [levioza](https://github.com/levioza)'s [nodejs-cli-starter-template](https://github.com/levioza/nodejs-cli-starter-template)
 
-## Install
+## Install (download dependencies)
+
+```sh
+npm i
+```
+
+## Test
+
+Run
+```sh
+npm test
+```
+
+Should see:
+
+
+```sh
+> node-cli-starter@0.1.0 test ${YOUR_PATH}/node-cli-ts-starter
+> jest
+
+ PASS  src/__tests__/writer-spec.ts
+  Writer
+    #write()
+      √ should write a message (5ms)
+      √ should write a default message (1ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        5.733s
+Ran all test suites.
+```
+
+## Install as CLI
 
 ```sh
 npm i -g
@@ -51,7 +82,6 @@ cli-command -h
 ```
 
 Should see:
-
 ```sh
 Usage: cli-command [options] [command]
 
@@ -64,7 +94,7 @@ Commands:
   help [cmd]       display help for [cmd]
 ```
 
-
+Run
 ```sh
 cli-command -V
 ```
@@ -74,7 +104,6 @@ Should see:
 ```sh
 0.1.0
 ```
-
 
 ## License
 
