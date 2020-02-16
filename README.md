@@ -28,9 +28,10 @@
 
 ---
 
-## Author
+## Authors
 
-[Alexander Lapygin](https://github.com/AlexanderLapygin) - adaptation to *Soft Spiders* 
+- [levioza](https://github.com/levioza) - original code 
+- [Alexander Lapygin](https://github.com/AlexanderLapygin) - adaptation to *Jest* and *Soft Spiders* 
 
 ## Inspired by
 
