@@ -22,6 +22,7 @@
   },
   "keywords": [
     "cli",
+    "jest",
     "node",
     "starter",
     "template",

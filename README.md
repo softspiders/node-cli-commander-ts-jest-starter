@@ -12,6 +12,7 @@ Node CLI starter on TypeScript
 - node
 - starter
 - template
+- test 
 - typescript
 
 ---
