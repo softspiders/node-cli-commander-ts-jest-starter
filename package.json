@@ -24,6 +24,7 @@
     "cli",
     "commander",
     "jest",
+    "mock",
     "node",
     "softspiders",
     "starter",
