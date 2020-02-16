@@ -1,4 +1,4 @@
-import { Writer } from '../src/writer';
+import { Writer } from '../writer';
 import * as assert from "assert";
 
 describe('Writer', () => {
