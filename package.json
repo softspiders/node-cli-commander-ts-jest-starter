@@ -1,11 +1,24 @@
 {
   "name": "node-cli-starter",
   "version": "0.1.0",
-  "description": "Node CLI starter",
-  "main": "src/index.js",
-  "bin": "src/index.js",
+  "description": "Node CLI starter on TypeScript",
+  "author": "Alexander Lapygin",
+  "license": "MIT",
+  "main": "dist/bin/app.js",
+  "typings": "dist/bin/app.d.ts",
+  "bin": {
+    "cli-command": "bin/cli-command"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
   "scripts": {
-    "start": "node src/index.js"
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc --pretty",
+    "test": "npm run build && mocha --compilers ts:ts-node/register --recursive test/**/*-spec.ts",
+    "watch": "npm run build -- --watch",
+    "watch:test": "npm run test -- --watch"
   },
   "keywords": [
     "cli",
@@ -14,11 +27,25 @@
     "template",
     "typescript"
   ],
-  "author": "Alexander Lapygin",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/softspiders/node-cli-starter"
   },
-  "homepage": "https://github.com/softspiders/node-cli-starter/blob/master/README.md"
+  "homepage": "https://github.com/softspiders/node-cli-starter/blob/master/README.md",
+  "devDependencies": {
+    "@types/chai": "^4.0.0",
+    "@types/commander": "^2.3.31",
+    "@types/mocha": "^2.2.39",
+    "@types/node": "^7.0.5",
+    "@types/sinon": "^2.3.0",
+    "chai": "^4.0.1",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.6.1",
+    "sinon": "^2.3.2",
+    "ts-node": "^3.0.4",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }

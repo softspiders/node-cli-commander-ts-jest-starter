@@ -25,7 +25,7 @@ Node CLI starter on TypeScript
 
 ## Author
 
-[Alexander Lapygin](https://github.com/AlexanderLapygin) <<alexanderlapygin@gmail.com>>
+[Alexander Lapygin](https://github.com/AlexanderLapygin) - adaptation to *Soft Spiders* 
 
 ## Install
 
@@ -45,6 +45,10 @@ Should see:
 Hello, Node CLI on TS!
 ```
 
-### License
+## Inspired by
+
+[levioza](https://github.com/levioza)'s [nodejs-cli-starter-template](https://github.com/levioza/nodejs-cli-starter-template)
+
+## License
 
 Licensed under the [MIT license](./LICENSE).
