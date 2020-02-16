@@ -1,5 +1,4 @@
-import { Writer } from '../writer';
-import * as assert from "assert";
+//import { Writer } from '../writer';
 
 describe('Writer', () => {
     describe('#write()', () => {
@@ -15,7 +14,7 @@ describe('Writer', () => {
             // spy.restore();
 
             console.log('CASE: should write a message');
-
+            expect(2*2).toBe(4)
         });
         it('should write a default message', () => {
 
@@ -28,6 +27,7 @@ describe('Writer', () => {
             //
             // spy.restore();
             console.log('CASE: should write a default message');
+            expect(2*2).toBe(4)
         });
     });
 });
