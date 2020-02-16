@@ -1,18 +1,19 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
+# *node-cli-commander-ts-jest-starter*
+
+Node CLI starter on TypeScript which is testing by Jest
+
 UNDER DEVELOPMENT
-
-# *node-cli-ts-starter*
-
-Node CLI starter on TypeScript
 
 ## Feature tags
 
 - cli
+- commander
+- jest
 - node
 - starter
 - template
-- test 
 - typescript
 
 ---

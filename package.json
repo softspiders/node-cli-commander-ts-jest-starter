@@ -22,10 +22,13 @@
   },
   "keywords": [
     "cli",
+    "commander",
     "jest",
     "node",
+    "softspiders",
     "starter",
     "template",
+    "test",
     "typescript"
   ],
   "repository": {
